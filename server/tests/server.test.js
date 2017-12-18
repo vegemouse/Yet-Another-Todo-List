@@ -25,7 +25,7 @@ describe('POST /todos', () => {
 
     request(app)
       .post('/todos')
-      .send({text})
+      .send({text}) // {test: test}
       .expect(200)
       .expect((res) => {
         expect(res.body.text).toBe(text);

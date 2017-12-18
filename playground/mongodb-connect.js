@@ -7,7 +7,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
   console.log('Connected to MongoDB server');
 
   // db.collection('Todos').insertOne({
-  //   text: 'Something to do',
+  //   text: 'Sieze the means of production',
   //   completed: false
   // }, (err, result) => {
   //   if (err) {
@@ -27,7 +27,6 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
   //   if (err) {
   //     return console.log('Unable to add user', err);
   //   }
-  //
   //   console.log(result.ops[0]._id.getTimestamp());
   // });
 
